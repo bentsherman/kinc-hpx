@@ -9,7 +9,7 @@ NP_VALUES="1 2 4 8 16"
 EMX_FILE="Yeast.emx.txt"
 CMX_FILE="Yeast.cmx.txt"
 
-printf "method\tblock_size\tnp\truntime\n"
+printf "method\tbsize\tnp\truntime\n"
 
 # run kinc-omp
 for BSIZE in ${BSIZE_VALUES}; do
